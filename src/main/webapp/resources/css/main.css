@@ -1,0 +1,28 @@
+body{
+	height:100%;
+}
+
+
+.blank{
+	
+	width : 80%;
+	margin: 0 auto;
+	
+	
+}
+
+
+.jumbotron{
+	
+	/* background: none; */
+}
+
+.jumbotron h1 {
+	font-size: 4vw;
+}
+
+#contact{
+
+   background-color:pink;
+	
+}
