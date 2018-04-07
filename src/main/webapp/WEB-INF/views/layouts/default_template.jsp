@@ -12,22 +12,26 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
 
+<c:url value="/" var="root" />
+<link rel="stylesheet" href="${root}/resources/css/main.css" />
+
 <title>Insert title here</title>
 </head>
-<body>
+
 <body>
        <div>
               <nav>
                      <tiles:insertAttribute name="menu" />
               </nav>
-              <div>
+              <div class="blank">
                      <tiles:insertAttribute name="body" />
               </div>
-              <footer>
+              
+               <footer class="blank">
                      <tiles:insertAttribute name="footer" />
-              </footer>
+              </footer> 
 </div>
 </body>
-</body>
+
 
 </html>
