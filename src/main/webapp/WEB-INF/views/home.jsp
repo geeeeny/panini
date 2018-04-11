@@ -4,6 +4,6 @@
 
 
 <div class="jumbotron" >
-<h1>Hello I'm a developer who works with one of my best friend at mulcam.</h1>
+<h1>Hello I'm a developer who works with one of my best friend at multicam.</h1>
 
 </div>
